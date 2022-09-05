@@ -1,9 +1,9 @@
-import { BurgerMenu } from '../BurgerMenu'
+import { MainNavbar } from '../MainNavbar'
 
 export const Layout = ({ children }) => {
   return (
     <div>
-      <BurgerMenu />
+      <MainNavbar />
       {children}
     </div>
   )
