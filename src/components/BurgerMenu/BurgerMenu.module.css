@@ -1,6 +1,6 @@
 /* Position and sizing of burger button */
 .bmBurgerButton {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
   right: 36px;
@@ -9,7 +9,7 @@
 
 /* Color/shape of burger icon bars */
 .bmBurgerBars {
-  background: #9455EC;
+  background: #eee;
 }
 
 /* Color/shape of burger icon bars on hover

@@ -50,7 +50,7 @@
 
 .button {
   background: linear-gradient(90deg, #FED775 0%, #FEB902 100%);
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   border-radius: 0.7rem;
   border-color: #ccc;
   border-style: solid;
@@ -58,7 +58,7 @@
   font-weight: 600;
   color: #444;
   cursor: pointer;
-  box-shadow: -10px 10px 50px 20px rgba(125, 78, 227, .4);
+  box-shadow: -10px 10px 50px 20px rgba(0, 0, 0, .2);
   transition: all 1s ease-in-out;
 }
 
