@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import { Layout } from '../components/Layout'
-import styles from '../styles/Home.module.css'
+import { SquareIconFrame } from '../components/SquareIconFrame'
 import { BsPlayFill } from 'react-icons/bs'
+
+import styles from '../styles/Home.module.css'
 
 import photoOne from '../../public/images/photo-1.png'
 import herbalife from '../../public/images/herbalife_logo.svg'
@@ -39,6 +41,8 @@ export default function Home () {
             </div>
           </div>
         </div>
+        <SquareIconFrame>
+        </SquareIconFrame>
       </Layout>
     </div>
   )
