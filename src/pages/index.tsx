@@ -10,15 +10,15 @@ import herbalife from '../../public/images/herbalife_logo.svg'
 
 export default function Home () {
   return (
-    <div>
       <Layout>
-        <div className={styles.heroBg}>
-          <div className={styles.hero}>
+        <div className={styles.container}>
+          <section className={styles.hero}>
 
             <div className={styles.left}>
               <h1 className={styles.heroTitle}>Changing your <span>eating</span> habits</h1>
               <p className={styles.heroSubtitle}>Always take care of your health starting from the
               food menu that you consume every day</p>
+
               <div className={styles.buttons}>
                 <button className={styles.button}>Explore Menu</button>
                 <div className={styles.watch}>
@@ -34,16 +34,21 @@ export default function Home () {
               <Image className={styles.heroImg} src={photoOne} alt="hero" width={500} height={500} />
             </div>
 
+          </section>
           </div>
-          <div className={styles.heroFooter}>
-            <div className={styles.footerContent}>
-              <Image className={styles.footerImg} src={herbalife} alt="herbalife" width={300} height={300} />
+
+          <section className={styles.brandsSection}>
+            <div className={styles.brandsContent}>
+              <Image className={styles.brandsImg} src={herbalife} alt="Herbalife" layout='fill' objectFit='contain' />
             </div>
-          </div>
-        </div>
-        <SquareIconFrame>
-        </SquareIconFrame>
+          </section>
+          <section>
+            <div>
+              <SquareIconFrame>
+              </SquareIconFrame>
+            </div>
+          </section>
+
       </Layout>
-    </div>
   )
 }
