@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h2 {
+  font-weight: 900;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  letter-spacing: .3px;
+  color: #6D4FA4;
+}
